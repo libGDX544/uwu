@@ -27,13 +27,13 @@ public class coolgame extends ApplicationAdapter {
 
 	@Override
 	public void render () {
-	if (Gdx.input.isKeyPressed(Input.Keys.LEFT))
+	if (Gdx.input.isKeyPressed(Input.Keys.A))
 		sprite.translateX(-7f);
-	if (Gdx.input.isKeyPressed(Input.Keys.RIGHT))
+	if (Gdx.input.isKeyPressed(Input.Keys.D))
 		sprite.translateX(7f);
-	if (Gdx.input.isKeyPressed(Input.Keys.UP))
+	if (Gdx.input.isKeyPressed(Input.Keys.W))
 		sprite.translateY(7f);
-	if (Gdx.input.isKeyPressed(Input.Keys.DOWN))
+	if (Gdx.input.isKeyPressed(Input.Keys.S))
 		sprite.translateY(-7f);
 
 		ScreenUtils.clear(0, 1, 1, 1);
