@@ -16,12 +16,12 @@ public class coolgame extends ApplicationAdapter {
 	@Override
 	public void create () {
 		batch = new SpriteBatch();
-		img = new Texture("D:\\testgame\\Assets\\ArrowNeutral.png");
+		img = new Texture("D:\\testgame\\Assets\\ArrowUp.png");
 		sprite = new Sprite(img);
 		sprite.setPosition(
 				Gdx.graphics.getWidth()/2 - sprite.getWidth()/2,
 				Gdx.graphics.getHeight()/2 - sprite.getHeight()/2);
-		sprite.setRotation(90f);
+		sprite.setRotation(0f);
 
 	}
 
